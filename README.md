@@ -48,4 +48,30 @@ The layout is fully responsive and structured with semantic HTML. Styling was do
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/your-username/brandson-barbershop.git
+   git clone https://github.com/OJhonnys/Barbershop-Brandson.git
+
+## 📸 Screenshots
+
+Here are some previews of the landing page layout:
+
+> ⚠️ *Add your screenshots here. Example:*
+>
+> ![Homepage Screenshot](./images/homepage.png)
+> ![Contact Section](./images/contact.png)
+
+---
+
+## ⚠️ Disclaimer
+
+This project is purely for educational purposes.  
+**Brandson Barbershop** is a fictional brand created to improve front-end development skills.
+
+---
+
+## 👨‍💻 Author
+
+Made with ❤️ by **Jhonny Carlos Da Silva** – an aspiring front-end developer passionate about clean UI and practical learning.
+
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/jhonnydasilva/)
+[![GitHub](https://img.shields.io/badge/GitHub-Profile-black)](https://github.com/OJhonnys)
+
