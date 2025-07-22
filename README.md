@@ -70,7 +70,7 @@ This project is purely for educational purposes.
 
 ## 👨‍💻 Author
 
-Made with ❤️ by **Jhonny Carlos Da Silva** – an aspiring front-end developer passionate about clean UI and practical learning.
+Made with ❤️ by **Jhonny Da Silva** – an aspiring front-end developer passionate about clean UI and practical learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/jhonnydasilva/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black)](https://github.com/OJhonnys)

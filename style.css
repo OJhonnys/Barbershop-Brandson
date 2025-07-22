@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #F8F5EF;
+}
+
+/* Hero Section */
+.hero-section {
+    background-image: url(/assets/hero-img.png);
+    background-size: cover;
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-section::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.6);
+    z-index: 0;
+}
+
+.overlay {
+    position: relative;
+    z-index: 1;
+    text-align: center;
+    max-width: 1026px;
+    padding: 40px;
+}
+
+.logo {
+    width: 284px;
+    margin-bottom: 80px;
+}
+
+.headline {
+    font-family: 'Barlow';
+    font-size: 4.5rem;
+    font-weight: 900;
+    margin-bottom: 25px;
+}
+
+.subheadline {
+    font-family: 'Work Sans';
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-bottom: 60px;
+}
+
+.buttons {
+    display: flex;
+    gap: 60px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.btn {
+    padding: 20px;
+    font-family: 'Barlow';
+    font-size: 1.125rem;
+    font-weight: 800;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 20px;
+    transition: backgroun 0.3s ease, colo 0.3s ease;
+    width: 271px;
+}
+
+.btn-primary, .btn-secondary {
+    background-color: #DEC7A6;
+    color: black;
+}
+
+.btn-primary:hover {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-secondary {
+    background-color: transparent;
+    border: 2px solid #fff;
+    color: #fff;
+}
+
+.btn-secondary:hover {
+    background-color: #DEC7A6;
+    color: black;
+}
