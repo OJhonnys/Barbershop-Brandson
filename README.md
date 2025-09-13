@@ -28,8 +28,6 @@ The layout is fully responsive and structured with semantic HTML. Styling was do
 
 - **HTML5** – page structure  
 - **CSS3** – styling with Flexbox and Grid  
-- **JavaScript** – for possible interactivity  
-- **Font Awesome** – for icons  
 - **Google Maps Embed** – map integration
 
 ---
@@ -54,10 +52,9 @@ The layout is fully responsive and structured with semantic HTML. Styling was do
 
 Here are some previews of the landing page layout:
 
-> ⚠️ *Add your screenshots here. Example:*
->
-> ![Homepage Screenshot](./images/homepage.png)
-> ![Contact Section](./images/contact.png)
+
+> ![Homepage Screenshot](/images/homepage.png)
+> ![Contact Section](/images/contact.png)
 
 ---
 
