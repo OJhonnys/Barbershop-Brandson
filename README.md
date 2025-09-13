@@ -51,8 +51,9 @@ The layout is fully responsive and structured with semantic HTML. Styling was do
 
 Here are some previews of the landing page layout:
 
-> ![Homepage Screenshot](/images/homepage.png)
-> ![Contact Section](/images/contact.png)
+
+> ![Homepage Screenshot](./images/homepage.png)
+> ![Contact Section](./images/contact.png)
 
 ---
 
