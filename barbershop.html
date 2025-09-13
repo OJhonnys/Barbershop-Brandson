@@ -17,8 +17,8 @@
             <P class="subheadline">Experience the Convenience of In-Home Barber Services</P>
 
             <div class="buttons">
-                <a href="#" class="btn btn-primary">BOOK AN APPOINTMENT</a>
-                <a href="#" class="btn btn-secondary">BROWSE SERVICES</a>
+                <a href="#appointment" class="btn btn-primary">BOOK AN APPOINTMENT</a>
+                <a href="#appointment" class="btn btn-secondary">BROWSE SERVICES</a>
             </div>
         </div>
     </header>
@@ -31,7 +31,7 @@
                     <img src="assets/icons/location.png" alt="Location Icon">
                 </div>
                 <h3>ADRESS</h3>
-                <P>301 FRONT ST W, TORONTO<br>ONTARIO CANADA</P>
+                <P>QUEEN STREET WEST, TORONTO<br>ONTARIO CANADA</P>
             </div>
 
             <div class="info-box">
@@ -138,7 +138,7 @@
             </div>
         </div>
         <div class="services-footer">
-            <a href="#" class="appointment-button">BOOK AN APPOINTMENT</a>
+            <a href="#appointment" class="appointment-button">BOOK AN APPOINTMENT</a>
         </div>
     </section>
 
@@ -176,7 +176,7 @@
         </div>
         <div class="review-container">
             <!-- Google Review -->
-             <div class="review-plataform">
+             <div class="review-google">
                 <img src="assets/icons/icon-google.png" alt="Google Icon" class="google-icon">
                 <h3>GOOGLE</h3>
                 <h1>4.9</h1>
@@ -196,7 +196,7 @@
              </div>
 
             <!-- Tripadvisor Review -->
-            <div class="review-plataform">
+            <div class="review-tripadvisor">
                 <img src="assets/tripadvisor-icon.png" alt="Tripadvisor logo" class="tripadvisor-logo-img">
                 <h3>TRIPADVISOR</h3>
                 <h1>5.0</h1>
@@ -209,10 +209,9 @@
     <section class="appointment-section">
         <div class="appointment-overlay">
             <div class="appointment-content">
-
                 <!-- Left side -->
                 <div class="appointment-info">
-                    <h2>MAKE AN APPOINTMENT</h2>
+                    <h2>MAKE AN <br>APPOINTMENT</h2>
                     <p>
                         Schedule your session in seconds with our expert barbers (over 10 years of experience). Enjoy flexible time slots and personalized service delivered right to your home.
                     </p>
@@ -233,31 +232,31 @@
                         </div>
                     </div>
                 </div> 
-                <!-- Right side-->
-                <div class="appointment-form">
-                    <form>
-                        <input type="text" name="name" placeholder="FULL NAME" required>
-                        <input type="text" name="subject" placeholder="SUBJECT" required>
+            </div>     
+            <!-- Right side-->
+            <div id="appointment" class="appointment-form">
+                <form class="info-form">
+                    <input type="text" name="name" placeholder="FULL NAME" required>
+                    <input type="text" name="subject" placeholder="SUBJECT" required>
 
-                        <div class="form-row">
-                            <input type="tel" name="phone" placeholder="PHONE NUMBER" required>
-                            <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
-                        </div>
+                    <div class="form-row">
+                        <input type="tel" name="phone" placeholder="PHONE NUMBER" required>
+                        <input type="email" name="email" placeholder="EMAIL ADDRESS" required>
+                    </div>
 
-                        <textarea name="message" placeholder="PLEASE TYPE YOUR MESSAGE HERE..." rows="5" required></textarea>
+                    <textarea name="message" placeholder="PLEASE TYPE YOUR MESSAGE HERE..." rows="10" required></textarea>
 
-                        <button type="submit">BOOK AN APPOINTMENT</button>
-                    </form>   
-                </div> 
+                    <button type="submit">BOOK AN APPOINTMENT</button>
+                </form>   
             </div>
-            <div class="map-section">
-                <iframe src="https://www.google.com/maps/place/Sunnybrook+Park/@43.7093148,-79.3736041,13.14z/data=!4m15!1m8!3m7!1s0x89d4cb90d7c63ba5:0x323555502ab4c477!2zVG9yb250bywgT04sIENhbmFkw6E!3b1!8m2!3d43.653226!4d-79.3831843!16zL20vMGg3aDY!3m5!1s0x89d4cd24cfe79fad:0x962a47462b3b3218!8m2!3d43.7243208!4d-79.3579026!16s%2Fm%2F06_vgp0?entry=ttu&g_ep=EgoyMDI1MDcxNi4wIKXMDSoASAFQAw%3D%3D"
-                width="100%" height="400" style="border: 0;" allowfullscreen="" 
-                loading="lazy" referrerpolicy="no-referrer-when-downgrade">
-                </iframe>
-            </div> 
         </div>
     </section>
+    <div class="map-wrapper">
+            <div class="map-section">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1443.4923132437918!2d-79.39926652036623!3d43.64848819352946!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x882b34556da06b89%3A0xed39b0f13f0ddf22!2sQueen%20Street%20West%2C%20Toronto%2C%20ON%2C%20Canad%C3%A1!5e0!3m2!1spt-BR!2sbr!4v1757789533645!5m2!1spt-BR!2sbr" width="100%" height="400" style="border: 0;" allowfullscreen=""loading="lazy" referrerpolicy="no-referrer-when-downgrade">
+                </iframe>
+            </div> 
+    </div>
 </body>
 <footer class="page-footer">
     <div class="rights">
@@ -266,11 +265,11 @@
         </p>
     </div>
     <div class="social">
-       <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
-       <a href="x.com" aria-label="Twitter"><i class="fab fa-twitter-f"></i></a>
-       <a href="instagram.com" aria-label="Instagram"><i class="fab fa-instagram-f"></i></a>
-       <a href="pinterest.com" aria-label="Pinterest"><i class="fab fa-pinterest-f"></i></a>
-       <a href="Linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin-f"></i></a>
+       <a href="https://www.facebook.com/" aria-label="Facebook"><i class="fab fa-facebook-f"></i><img src="assets/icons/facebook-icon.png"></a>
+       <a href="x.com" aria-label="Twitter"><i class="fab fa-twitter-f"></i><img src="assets/icons/twitter-icon.png"></a>
+       <a href="instagram.com" aria-label="Instagram"><i class="fab fa-instagram-f"></i><img src="assets/icons/instagram-icon.png"></a>
+       <a href="pinterest.com" aria-label="Pinterest"><i class="fab fa-pinterest-f"></i><img src="assets/icons/pintest-icon.png"></a>
+       <a href="Linkedin.com" aria-label="LinkedIn"><i class="fab fa-linkedin-f"></i><img src="assets/icons/linkedIn-icon.png"></a>
     </div>
 </footer>
 </html>
