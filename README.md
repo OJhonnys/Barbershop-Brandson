@@ -1,7 +1,7 @@
 # 💈 Brandson Barbershop – Landing Page
 
 **Brandson Barbershop** is a fictional landing page project developed for study purposes.  
-It simulates a premium mobile barber service, built to practice **HTML**, **CSS**, and **JavaScript** skills.
+It simulates a premium mobile barber service, built to practice **HTML** and **CSS** skills.
 
 ---
 
@@ -53,6 +53,7 @@ Here are some previews of the landing page layout:
 
 
 > ![Homepage Screenshot](./images/homepage.png)
+
 > ![Contact Section](./images/contact.png)
 
 ---
@@ -66,7 +67,7 @@ This project is purely for educational purposes.
 
 ## 👨‍💻 Author
 
-Made with ❤️ by **Jhonny Da Silva** – an aspiring front-end developer passionate about clean UI and practical learning.
+Made with ❤️ by **Jhonny Da Silva** – a front-end developer passionate about clean UI and practical learning.
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Connect-blue)](https://www.linkedin.com/in/jhonnydasilva/)
 [![GitHub](https://img.shields.io/badge/GitHub-Profile-black)](https://github.com/OJhonnys)
